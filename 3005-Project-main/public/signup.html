@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signup.css">
+    <script
+     src="func.js">
+    </script>
+    <title>Sign up</title>
+  </head>
+</html>
+<body>
+  <div class="header">
+    <h1>Sign up</h1>
+    <a href="home.html">Home</a>
+    <a href="signup.html">Register</a>
+    <a href="login.html">Login</a></div>
+  </div>
+  <hr><br><br>
+</body>
+<main>   
+  <div class="signup"><b>Username: </b>
+    <input id="username" type="textbox" size="20"><span class="regErr" id="regErr"></span><br><b>Password: </b>
+    <input id="password" type="textbox" size="20"><span class="passErr" id="passErr"></span><br><b>Confirm Password: </b>
+    <input id="cpassword" type="textbox" size="20"><span class="passErr" id="passErr"></span><br>
+  </div>
+  <div class="add"><b>Address: </b>
+    <input id="address" type="textbox" size="20"><span class="addErr" id="addErr"></span><br>
+    <b>Billing Address: </b>
+    <input id="baddress" type="textbox" size="20"><span class="baddress" id="baddress"></span><br>
+       <!-- ADD METHOD HERE -->
+    <button id="signup" type="button" onclick="register()">Sign up</button>
+    <p>Already have an account? </p><a href="login.html">Login</a>
+  </div>
+</main>

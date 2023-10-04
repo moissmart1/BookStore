@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\admin.css">
+    <script src="func.js">
+    </script>
+    </head>
+    <section>
+      <div id="adminlogin" class="show">
+        <title>Admin Login</title>
+        <body>
+        <div class="header"> 
+        <h1>Login</h1>
+        <a href="home.html">Home</a>
+        <a href="signup.html">Register</a>
+        <a href="login.html">Login</a>
+        <!-- <a href="/views/adminlogin.html">Admin</a> -->
+      </div>
+      <hr><br><br>
+    </body>
+    <main class="log">
+      <div class="login"><b>Username: </b>
+        <input id="Username" type="textbox" size="20"> 
+        
+        <b>Password: </b>
+        <input id="Password" type="textbox" size="20"> 
+    
+        <!-- ADD METHOD HERE -->
+        <button id="AdminLogin" type="button" onclick='adminlogin()'>Admin Login</button>
+        <p class="Error" id="Error"></p>
+        <p class="AdminErr" id="AdmiErr"></p>
+      </div>
+    </main>
+  </section>
+
+  <section id="admindata">
+    <div id="adata" class="hidden">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\admin.css">
+    <script src="func.js">
+    </script>
+    <title>Admin page</title>
+    </head>
+    <body>
+      <div class="header"> 
+        <h1>Admin Page</h1>
+        <a href="home.html">Home</a>
+        
+    <!-- <a href="/views/adminlogin.html">Admin</a> -->
+      </div>
+      <hr><br><br>
+    </body>
+    <main>
+      <div id="book search" class="book search">
+        <b>book name: </b>
+        <input id="book name" type="textbox" size="20">
+
+        <b>Book author: </b>
+        <input id="book author" type="textbox" size="20">
+        <button id="admin search" type="button" onclick="admin_search()">Search</button>
+      </div>
+      <div id="book display" >
+  </div>
+</main>
+</div>
+</section>
+</html>

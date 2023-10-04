@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    
+    <script src="func.js">
+    </script>
+    </head>
+    <section>
+      <div id="login" class="show">
+        <title>Login</title>
+        <body>
+        <div class="header"> 
+        <h1>Login</h1>
+        <a href="home.html">Home</a>
+        <a href="signup.html">Register</a>
+        <a href="login.html">Login</a>
+    <!-- <a href="/views/adminlogin.html">Admin</a> -->
+      </div>
+  <hr><br><br>
+</body>
+<main class="log">
+  <div class="login"><b>Username: </b>
+    <input id="Username" type="textbox" size="20"> 
+    
+    <b>Password: </b>
+    <input id="Password" type="textbox" size="20"> 
+
+    <!-- ADD METHOD HERE -->
+    <button id="Login" type="button" onclick="login()">Login</button>
+    <!-- <form action="search.html">
+    <button id="Login" type="submit" formaction="search.html">Login</button> -->
+    <p class="Err" id="Err"></p>
+    <p class="UserErr" id="UserErr"></p>
+    <p>Don't have an account? </p><a href="signup.html">Sign up</a>
+    <p><a href="admin.html">Admin</a></p>
+  </div>
+</main>
+</section>
+
+
+  <section id="searchsec">
+    <div id="search" class="hidden">
+    <head id ="null">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/search.css">
+    <script src="func.js">
+    </script>
+    <title>Search</title>
+    </head>
+    <body>
+      <div class="Search">
+        <h2>MED BOOKSTORE</h2>
+      </div>
+      <div class="header">
+        <a href="home.html">Home</a>
+        <a href="signup.html">Register</a>
+        <a href="login.html">Login</a>
+      </div>
+      <hr><br><br>
+    </body>
+    <main>
+      <div >
+        <div class = "sarea">
+          <b>Search: 
+          <input class="user" id="text" type="textbox">
+          <button id="submit" type="button" onclick="search()">Search   </button>
+          <br>
+          <input type="radio" name="radio" class="ISBN" id="ISBN"><b> ISBN </b> &nbsp
+          <input type="radio" name="radio" class="Name" id="Name"><b> Name </b> &nbsp
+          <input type="radio" name="radio" class="Author" id="Author"><b> Author </b> &nbsp
+          <input type="radio" name="radio" class="Genre" id="Genre"><b> Genre </b> &nbsp
+          </b> &nbsp
+        </div>
+      </p>
+      <div class="result" id="result" >
+        <ul class="pos">
+        </ul>
+      <!-- </div> -->
+      </div>
+      <!-- <div class="result" id="result" >
+        <ul>
+        </ul>
+      </div> -->
+      </b>
+      <br>
+      <br>
+      <div class="cart" id="cart">
+        <br>
+        <br>
+        <!-- <button id="order">Order</button> -->
+      </div>
+      <!-- <button id="order">Order</button> -->
+    </div>
+    </main>
+    </div>
+  </section>
+</html>

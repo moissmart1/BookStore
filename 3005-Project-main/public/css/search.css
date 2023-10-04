@@ -1,0 +1,30 @@
+.header{
+    text-align: center;
+}
+.sarea{
+    /* text-align: left;
+    display: flex;
+    justify-content: space-around; */
+    padding: 1rem 2rem;
+}
+.Search{
+    text-align: center;
+}
+
+.result{
+    padding: 1rem 2rem;
+    float: left ;
+}
+
+.pos{
+    border: 5px;
+    text-align: left;
+    /* display: flex; */
+    justify-content: space-around;
+}
+
+.cart{
+    display: flex;
+    flex-direction: row-reverse;
+    float: right;
+}

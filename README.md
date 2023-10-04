@@ -1,6 +1,4 @@
 # 3005-Project
-Group: Moziah Smart(101189697), Damilola Olabisi (101198092),Edi (1011286018)
-
 
 users: 
     Store owner:
@@ -24,3 +22,4 @@ the config file has the password and database access
 
 
 
+credit to Moziah Smart(101189697), Damilola Olabisi (101198092),Edi (1011286018)

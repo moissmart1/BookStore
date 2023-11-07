@@ -15,7 +15,7 @@ run:
     npm install path
     node server
 how it works:
-    the config file is the connection between the server and the aws rbs instance the database is on posgres and is accesible throught the cloud instance
+    the config file is the connection between the server and the aws rDs instance the database is on posgres and is accesible throught the cloud instance
 to connect to the database with pg admin 4 import the json file called serveracess.json into your pg admin 4
 the config file has the password and database access
 
